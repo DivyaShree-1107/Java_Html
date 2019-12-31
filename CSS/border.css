@@ -1,0 +1,28 @@
+#aa{
+	border-style: dashed;
+	border-radius: 10px 50px 80px 90px;
+}
+#ab{
+	background-color:pink;
+	border-style: double;
+}
+#ac{
+	border-style: dotted;
+	background-image: url(./dtimages/doraemon.jpeg);
+	border-radius:90px 10px;
+}
+#ad{
+	background-color: green;
+	border-radius: 10px 50px 80px 90px;
+}
+#af{
+	border-radius:50px;
+	float: center;
+}
+#ae{
+	background-color:yellow;
+}
+#ag{
+	float: center;
+	margin-left: 500px;
+}

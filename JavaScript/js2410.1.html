@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mark and John</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var mark_height = 30 ;
+			var john_height = 20 ;
+			var mark_mass = 100 ;
+			var john_mass = 90 ;
+			var bmi_mark =(mark_mass)/(mark_height * mark_height)
+			var bmi_john =(john_mass)/((john_height * john_height));
+			document.write("Mark's BMI : "+bmi_mark +"<br>" +"<br>");
+			document.write("John's BMI : "+bmi_john +"<br>" +"<br>");
+			if(bmi_john > bmi_mark)
+			{
+				document.write("Body mass Index of John's is greater than Mark " +"<br>" +"<br>")
+			}
+			else{
+				document.write("Body mass Index of Mark's is greater than John ")
+			}
+			var x =(bmi_john>bmi_mark)?("False "):("True ")
+			console.log("Is Mark's BMI higher than John's ?"+ x);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,145 @@
+.mainblog{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	padding: 40px;
+	margin-top: -100px;
+}
+.blog1{
+/*	display: flex;*/
+margin: 50px;
+}
+.parared{
+	font-size: 28px;
+	color: red;
+
+}
+.headn{
+	color: red;
+	font-size: 20px;
+}
+
+
+.main{
+	margin: 10px;
+}
+.first{
+	display: flex;
+	justify-content: flex-start;
+	padding: 10px;
+}
+.space1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 75px;
+	background-color: #de6057;
+	margin-left: 5px;
+	height: 45px;
+	
+}
+.second{
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+}
+.space2{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 75px;
+	background-color: #f2c329;
+	margin-left: 10px;
+	height: 45px;
+}
+.third{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+.space3{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 75px;
+	background-color: #2adbeb;
+	margin-left: 10px;
+	height: 45px;
+}
+.fourth{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+.space4{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 75px;
+	background-color: #baed6d;
+	margin-left: 10px;
+	height: 45px;
+}
+.fifth{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+.space5{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 75px;
+	background-color: #f283eb;
+	margin-left: 10px;
+	height: 45px;
+}
+.sixth{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+.space61{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 75px;
+	background-color: #a5e6c2;
+	justify-content: center;
+	justify-content: space-around;
+	height: 45px;
+	margin-left: 150px;
+}
+.space62{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 75px;
+	background-color: #a5e6c2;
+	justify-content: center;
+	justify-content: space-around;
+	height: 45px;
+	margin-left: 50px;
+}
+.space63{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 75px;
+	background-color: #a5e6c2;
+	justify-content: center;
+	justify-content: space-around;
+	height: 45px;
+	margin-left: 30px;
+}
+.space64{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 75px;
+	background-color: #a5e6c2;
+	justify-content: center;
+	justify-content: space-around;
+	height: 45px;
+	margin-right: 150px;
+}

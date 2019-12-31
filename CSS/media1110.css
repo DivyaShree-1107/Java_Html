@@ -1,0 +1,84 @@
+.homebac{
+	background-color: #c9edf5;
+
+}
+ .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;}
+.prdct_name{
+ 	font-size: 3em;
+ 	margin-left: 41%;
+ 	margin-top: -10px;
+ }
+ .logo{
+ 	margin-left: 40%;
+ 	margin-top: 20px;
+ 	height: 150px;
+ 	width: 150px;
+ 	border-radius: 50%
+ }
+ .flx{
+ 	display: flex;
+ 	width: 100%;
+ 	height: 80%;
+ }
+ .marq{
+ 	width:75%;
+ }
+ .para{
+ 	width: 25%;
+ }
+ .foot{
+ 	background-color:pink;
+ 	width: 100%;
+ 	height: 20px;
+ }
+ .imges{
+	display: flex;
+	flex-direction: row;
+	padding:10px; 
+}
+.row1{
+	padding-left: 30px;
+
+}
+.row2{
+	padding-left: 200px;
+}
+.butt{
+padding-left: 200px;
+}
+.paraimg{
+  height: 200px;
+  width: 400px;
+  margin: 10px;
+}
+.paraabt{
+  width: 70%;
+  height: auto;
+}
+.flx_1{
+  border: 2px solid black;
+  margin: 60px;
+  display: flex;
+}
+.flex1{
+  padding-bottom: 50px;
+}

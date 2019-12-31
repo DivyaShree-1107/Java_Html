@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Bill Tip Calculator</title>
+<link rel="stylesheet" type="text/css" href="js3010.3.css">
+</head>
+<body>
+<h1>Get the total</h1>
+<div id="checks">
+<input type="checkbox" name="addition" value="5$" >5$
+<input type="checkbox" name="addition" value="10$" class="margin">10$
+<input type="checkbox" name="addition" value="15$" class="margin">15$<br>
+<input type="checkbox" name="addition" value="20$" >20$
+<input type="checkbox" name="addition" value="25$" class="margin3">25$
+<input type="checkbox" name="addition" value="30$" class="margin">30$<br>
+</div>
+<div class="margin1">
+<input type="button" value="Select All" onclick="Select_all();" class="buttoncolor">
+<input type="button" value="Unselect All" onclick="Unselect_all();" class="buttoncolor">
+</div><br>  
+<div class="margin2"><input type="button" value="Submit" onclick="result();" class="subcolor"></div>
+</div>
+<div class="one"> 
+<h1>Get the total</h1>
+<h4> < back </h4>
+<div id="demo2">
+<p id ="demo1">Total is</p>
+<p id="demo"></p> 
+</div>
+</div>
+<script type="text/javascript">
+function Select_all()
+{
+var items=document.getElementsByName('addition')
+
+for( var i=0;i<items.length;i++)
+{
+if(items[i].type=='checkbox')
+{
+items[i].checked=true;
+}
+}
+
+}
+function Unselect_all()
+{
+var items=document.getElementsByName('addition')
+
+for( var i=0;i<items.length;i++)
+{
+if(items[i].type=='checkbox')
+{
+items[i].checked=false;
+}
+}
+
+}
+function result()
+
+{
+
+var items=document.getElementsByName('addition');
+var sum=0;
+for(var i=0; i<items.length; i++){
+if(items[i].type=='checkbox' && items[i].checked==true)
+sum=parseInt(items[i].value)+sum;
+}
+document.getElementById("demo").innerHTML=sum;
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html> 
+	<head>
+	    <title>Greeting Message using JavaScript</title> 
+	</head>
+	<body>
+	    <label id="<!-- lblGreetings -->"></label>
+
+
+			<script>
+			    var myDate = new Date();
+			    var hrs=greetings(myDate.getHours());
+			
+			       function greetings(hrs)
+			       {
+			     if(hrs<12)
+			     	 morning()
+			     else if(hrs >= 12 && hrs <= 16)
+			     	 afternoon()
+			     else (hrs >= 16 && hrs <= 24)
+			     	 evevning()
+			   }
+
+			     function morning() 
+			     {
+			     	document.write('Good Morning');
+			     }
+			      function afternoon() 
+			     {
+			     	document.write('Good Afternoon');
+			     }
+			      function evening() 
+			     {
+			    	document.write('Good Evening');
+			     }
+			    
+
+
+			</script> 
+		</body>
+</html>

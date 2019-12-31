@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Color changing</title>
+		<style type="text/css">
+				#box{
+				background-color:red;
+				height:50px;
+				margin:20px;
+				text-align: center;
+				font-size: 30px;
+
+				}
+				#box_1{
+				background-color:lightgreen;
+				height:50px;
+				margin:20px;
+				text-align: center;
+				font-size: 30px;
+
+				}
+				#box_2{
+				background-color:lightblue;
+				height:50px;
+				margin:20px;
+				text-align: center;
+				font-size: 30px;
+
+				}
+		</style>
+	</head>
+	<body >
+		<div id="box" onclick="myFunction()">Red
+		</div>
+		<div id="box_1" onclick="myFunction_1()">Green
+		</div>
+		<div id="box_2" onclick="myFunction_2()">Blue
+		</div>
+	<script type="text/javascript">
+	function myFunction() 
+	{
+    var x = document.getElementById('box');
+    if (x.style.backgroundColor === 'red')
+     {
+        x.style.backgroundColor = 'white';
+    } else 
+    {
+        x.style.backgroundColor = 'red';
+    }
+  }
+function myFunction_1() 
+
+    {
+    var y = document.getElementById('box_1');
+    if (y.style.backgroundColor === 'lightgreen')
+     {
+        y.style.backgroundColor = 'white';
+    } else
+     {
+        y.style.backgroundColor = 'lightgreen';
+    }
+  }
+    function myFunction_2() 
+    {
+    var z = document.getElementById('box_2');
+    if (z.style.backgroundColor === 'lightblue') 
+    {
+        z.style.backgroundColor = 'white';
+    } else 
+    {
+        z.style.backgroundColor = 'lightblue';
+    }
+}
+	</script>
+
+	</body>
+</html>

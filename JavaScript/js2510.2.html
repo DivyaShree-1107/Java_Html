@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Leap year</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		function check_leapyear(year)
+		{
+			if( (0 == year % 4) && (0 != year % 100) || (0 == year % 400) )
+				{
+					document.write(year+" is a leap year and and has 365 days"+ "<br>" + "<br>"  );
+					document.write(year+" has 28 days in February month"+ "<br>" + "<br>" + "<br>");
+					
+				}
+				else
+				{
+					document.write(year+" is not a leap year and has 366 days"+ "<br>" + "<br>" ); 
+					document.write(year+" has 29 days in February month"+ "<br>" + "<br>" + "<br>" ) 
+				}
+		}
+		var ans = check_leapyear(2004);
+		
+
+
+		</script>
+	</body>
+</html>

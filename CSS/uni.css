@@ -1,0 +1,26 @@
+.p1w{
+	color:blue;
+	background-color: pink;
+	font-size: 20px
+	border-color:purple;
+	border-spacing: 10px;
+}
+#p2w{
+	border-color: purple;
+	background-color: yellow;
+	color: red;
+}
+*{
+	color:grey;
+
+}
+#p4w{
+	background-image: url("../dtimages/vtu.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#p5w{
+	background-image: url("../dtimages/vtu.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+}

@@ -1,0 +1,71 @@
+
+.topnav{
+	border-style: solid;
+	background-color: #7ff5be;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border:ridge;
+}
+.hm_pg{
+	background-color: red;
+}
+#home_page{
+	background-color: #c1c5e6;
+}
+#about_page{
+	background-color: #e4d1ed;
+
+}
+.contact_page{
+	background-color:#ecf29b;
+}
+.para_1{
+	border-style: solid;
+	background-color: #75ebdb;
+	padding: 50px;
+}
+.para_3{
+	border-style: solid;
+	/*background-color: #b2ecf7 !important;*/
+}
+h2{
+	background-color: pink;
+}
+#table_1{
+	font-size: 25px;
+	border-width: 5px;
+}
+.para_2{
+	background-color: #a9cca7;
+
+}
+.buto{
+	width: 100px;
+	height: 30px;
+}
+.container{
+	display: inline-block;
+  cursor: pointer;
+}
+.bar1{
+	width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.bar2{
+	width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}

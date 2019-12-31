@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Dummy</title>
+	</head>
+	<body>
+		<p id="demo_1">
+		</p>
+		<!-- <p id="demo_2"></p> -->
+		<script style="font-size: 30px">
+		  var name = prompt(document.getElementById("para").innerHTML,'');
+		  // var password = prompt('Password',null);
+		// alert(name + "\n" + password)
+		  if(name == null && password == null)
+		  	{
+		  
+		  		document.getElementById("demo_1").innerHTML="Please enter all credentials";
+
+		  	}
+		  	else{
+					document.getElementById("demo_1").innerHTML="You have entered " + name + " and password as " + password  ;
+			}
+		</script>
+		<div id="para">
+			<input type="text" name="name">
+			<input type="text" name="name">
+		</div>
+	</body>
+</html>

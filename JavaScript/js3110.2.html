@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bind Function</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var person = {  
+		  name: "Kavya Gowda",
+		  hello: function(thing) {
+		    document.write(this.name + " says" + thing);
+		  }
+			}
+			var helloFunc = person.hello.bind({ name: "Kavya Gowda" });
+			helloFunc(" I choose you ." +"<br>"); 
+			var helloFunc = person.hello.bind({ name: "Kavya Gowda" }, );
+			helloFunc(" she loves Icecream and listens to music .");
+
+		</script>
+	</body>
+</html>

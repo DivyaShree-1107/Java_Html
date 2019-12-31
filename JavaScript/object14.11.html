@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> function method</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		
+			var school={
+				name:"TNCHS",
+				place:"Bangalore",
+				type:"State",
+				area:"Vijaynagar",
+				address: function(){
+					return (this.place+ ""+ this.area) 
+				}
+
+			}
+
+			document.write(school.name + " is a school that is in " + school.place + " with a sylabus in " + school.type +" which is located in " + school.area +" with full address " +school.address())
+		</script>
+
+	</body>
+</html>

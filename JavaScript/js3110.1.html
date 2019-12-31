@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Object with Apply function</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var person = {
+		  fullName: function() {
+		    return this.firstName + " " + this.lastName;
+		  	}
+			}
+			var person1 = {
+			  firstName:"Divya",
+			  lastName: "Shree",
+			}
+
+			var x = person.fullName.apply(person1); 
+	
+			document.write(x+"<br>"); 
+			 
+		</script>
+
+	</body>
+</html>

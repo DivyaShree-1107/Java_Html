@@ -1,0 +1,28 @@
+body{
+	--div:Solid;
+	--divy:Pink;
+	--fntsze:150%;
+	--bckgrndclr:#fedcba;
+}
+.headings1{
+	border-style: var(--di,dotted);
+}
+.headings2{
+	border-style: var(--div,dashed);
+}
+.headings1{
+	background-color: var(--diy,#abcdef);
+}
+.headings2{
+	background-color: var(--divy,red);
+}
+.para12{
+	font-size: var(--fntsze,5px);
+	background-color: var(--bckgrndclr,orange);
+}
+.para34{
+	font-size: var(--fnts,5px);	
+}
+.para56{
+	font-size: var(--fntsze,1px);	
+}

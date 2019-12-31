@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Highest string length</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var cars = ["Saab", "Volvo", "BMW","Scorpion"];
+		
+			var lgth = 0;
+			var longest;
+
+				for(var i=0; i < cars.length; i++)
+				{
+				    if(cars[i].length > lgth)
+				    {
+				        var lgth = cars[i].length;
+				        longest = cars[i];
+				    }      
+				} 
+			document.write(longest);
+		</script>
+	</body>
+</html>

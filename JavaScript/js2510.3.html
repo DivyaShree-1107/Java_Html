@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <html> 
+  <head>
+  	<title>JavaScript basic animation
+  	</title>
+  </head>
+  <body onload="animate_string('target')">
+		<script type="text/javascript">
+		  	function animate_string(id) 
+				{
+		    var element = document.getElementById(id);
+		    var textNode = element.childNodes[0]; 
+		    var text = textNode.data;
+
+				setInterval(function () {
+				 text = text[text.length - 1]+text.substring(text.length - 1,0) ;
+				  textNode.data = text;}, 100);
+				}
+		  </script>
+		  </head> 
+		  <p id="target">Welcome to Java script</p>
+	</body> 
+</html>

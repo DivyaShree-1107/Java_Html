@@ -1,0 +1,147 @@
+.super_main{
+	display: grid;
+	grid-template-columns: 150px 150px 150px 150px ;
+	grid-gap: 30px;
+	margin: 10% ;
+	background-color: black ;
+	padding: 20px;
+	width: 700px;
+
+}
+.top_left1{
+	display: grid;
+	border: 2px solid black;
+	grid-template-columns: 20px 20px 20px;
+	height: 120px;
+	justify-content: space-around;
+	align-content: center;
+	padding-right: 50px;
+	background-color: white ;
+	border-radius: 20px ;
+
+}
+.top_left2{
+	display: grid;
+	border: 2px solid black;
+	grid-template-columns: 20px 20px 20px;
+	height: 120px;
+	justify-content: space-around;
+	align-content: center;
+	padding-left: 50px;
+	background-color: white ;
+	border-radius: 20px ;
+
+}
+.top_right1{
+	display: grid;
+	border: 2px solid black;
+	grid-template-columns: 20px 20px 20px;
+	height: 120px;
+	justify-content: space-around;
+	align-content: center;
+	padding-right: 50px;
+	background-color: white ;
+	border-radius: 20px ;
+
+}
+.top_right2{
+	display: grid;
+	border: 2px solid black;
+	grid-template-rows: 20px 20px 20px;
+	height: 120px;
+	align-content: space-around;
+	justify-content: center;
+	padding-left: 15px;
+	padding-top: 5px;
+	background-color: white ;
+	border-radius: 20px ;
+
+}
+.bottom_left1{
+	display: grid;
+	border: 2px solid black;
+	grid-template-columns: 20px 20px 20px;
+	height: 120px;
+	justify-content: space-between;
+	align-content: center;
+	padding: 10px;
+	background-color: white ;
+	border-radius: 20px ;
+
+}
+.bottom_left2{
+	display: grid;
+	border: 2px solid black;
+	grid-template-columns: 20px 20px 20px;
+	height: 120px;
+	justify-content: space-between;
+	align-content: center;
+	padding: 10px;
+	background-color: white ;
+	border-radius: 20px ;
+}
+.bottom_right1{
+	display: grid;
+	border: 2px solid black;
+	grid-template-columns: 20px 20px 20px;
+	height: 120px;
+	justify-content: space-between;
+	align-content: center;
+	padding: 10px;
+	background-color: white ;
+	border-radius: 20px ;
+}
+.bottom_right2{
+	display: grid;
+	border: 2px solid black;
+	grid-template-columns: 20px 20px 20px;
+	height: 120px;
+	justify-content: space-around;
+	align-content: center;
+	padding: 5px ;
+	background-color: white ;
+	border-radius: 20px ;
+
+}
+.boxesb_1{
+	border: 1px solid black;
+	height: 20px;
+	width: 30px;
+	background-color: lightblue;
+	border-radius: 20% ;
+}
+.boxeso_1{
+	border: 1px solid black;
+	height: 20px;
+	width: 30px;
+	background-color: orange;
+	border-radius: 20% ;
+
+}
+.boxesb{
+	border: 1px solid black;
+	height: 20px;
+	width: 20px;
+	background-color: lightblue;
+	border-radius: 20% ;
+}
+.boxeso{
+	border: 1px solid black;
+	height: 20px;
+	width: 20px;
+	background-color: orange;
+	border-radius: 20% ;
+}
+.text_11{
+	grid-column: 1 / span 2 ;
+	padding-left: 80px;
+	font-size: 40px; 
+	color: grey ;
+
+}
+.text_22{
+	grid-column: 3 / span 2 ;
+	padding-left: 80px;
+	font-size: 40px;
+	color: grey ; 
+}

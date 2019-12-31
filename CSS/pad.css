@@ -1,0 +1,28 @@
+#mo{
+	border-style: dashed;
+	color: blue;
+	padding-bottom: 50px;
+
+
+}
+.ty{
+	border-style: dotted;
+	color: pink;
+	padding: 60px 20px 40px ;
+	margin:50px 30px 80px 10px;
+	
+
+}
+.rt{
+	border-style: dashed;
+	padding-right: 10px;
+
+}
+.pp{
+	color:purple;
+	padding:40px 10px;
+}
+.oo{
+	color:red;
+	padding:40px 30px 50px;
+}
